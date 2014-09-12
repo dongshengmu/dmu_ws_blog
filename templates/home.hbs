@@ -1,0 +1,59 @@
+  {{> header}}
+
+  <div class="overlay"><div class="loading"></div></div>
+  <div class="frame">
+    <canvas id="stage" width="500" height="100"></canvas>
+  </div>
+  <header class="intro-text">
+    <div class="inner">
+      {{> about}}
+    </div>
+
+    <i class="fa fa-angle-down scrolldown"></i>
+  </header>
+
+
+
+  <section class="full-width">
+      <article class="art-1 blog">
+        <header>
+          <h2><a href="{{articles.[0].url}}">{{articles.[0].title}}</a></h2>
+          <p class="date"><span>{{date articles.[0].metadata.date}}</span></p>
+        </header>
+        <section class="summary">
+          {{{typogr articles.[0].intro}}}
+          {{#if articles.[0].hasMore}}
+            <p class="more"><a href="{{articles.[0].url}}">Read more</a></p>
+          {{/if}}
+        </section>
+      </article>
+
+      <article class="art-2 instagram"></article>
+      <article class="art-4 instagram"></article>
+      <article class="art-7 instagram"></article>
+
+      <article class="art-8 blog">
+        <header>
+          <h2><a href="{{articles.[1].url}}">{{articles.[1].title}}</a></h2>
+          <p class="date"><span>{{date articles.[1].metadata.date}}</span></p>
+        </header>
+        <section class="summary">
+          {{{typogr articles.[1].intro}}}
+          {{#if articles.[1].hasMore}}
+            <p class="more"><a href="{{articles.[1].url}}">Read more</a></p>
+          {{/if}}
+        </section>
+      </article>
+
+      <article class="art-5 instagram"></article>
+      <article class="art-6 instagram"></article>
+      <article class="art-9 instagram"></article>
+
+  </section>
+
+
+
+
+
+  {{> footer}}
+

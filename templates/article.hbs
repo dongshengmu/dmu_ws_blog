@@ -1,0 +1,31 @@
+	{{> header}}
+
+
+	<main id="main-content" class="post">
+
+		{{> branding}}
+
+		<article class="container box">
+			<header>
+				<h2>{{page.title}}</h2>
+				<p class="date"><span>{{date page.metadata.date}}</span></p>
+			</header>
+			<section class="content">
+				{{{typogr page.html}}}
+			</section>
+
+			{{#if page.metadata.comments}}
+				{{> disqus}}
+			{{/if}}
+
+		</article>
+
+		<!-- Back to Blog Box -->
+		<article class="container box">
+			<header>
+				<h2><a href="/">&larr; Return to Home</a></h2>
+			</header>
+		</article>
+
+	</main>
+	{{> footer}}

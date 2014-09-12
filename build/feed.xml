@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<rss version='2.0' xmlns:content='http://purl.org/rss/1.0/modules/content/' xmlns:wfw='http://wellformedweb.org/CommentAPI/' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:atom='http://www.w3.org/2005/Atom'>
+  <channel>
+    <title>Dongsheng</title>
+    <atom:link href="http://dongshengmu.github.io//feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://dongshengmu.github.io/</link>
+    <description>Passion in cloud security, data analysis, and automation.</description>
+    <pubDate>Fri, 01  Aug 2014 17:00:00 -0700</pubDate>
+    <language>en</language>
+
+    
+    
+    <item>
+      <title>Field Data Analyzer</title>
+      <link>http://dongshengmu.github.io//articles/fda/</link>
+      <pubDate>Thu, 31 Jul 2014 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://dongshengmu.github.io//articles/fda/</guid>
+      <author>Dongsheng Mu</author>
+      <description>Field Data Analyzer is an expert system framework designed for troubleshooting, which analyses vast amount of field escalation data with a set of analytical engines, based on an extensible knowledge base.
+</description>
+    </item>
+    
+    <item>
+      <title>A DevTest framework called Jellyfish</title>
+      <link>http://dongshengmu.github.io//articles/jellyfish/</link>
+      <pubDate>Fri, 01  Aug 2014 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://dongshengmu.github.io//articles/jellyfish/</guid>
+      <author>Dongsheng Mu</author>
+      <description>Jellyfish is a Transparent and Flexible test framework, with Tentacles to pull things together.
+</description>
+    </item>
+    
+    <item>
+      <title>Field Data Analyzer</title>
+      <link>http://dongshengmu.github.io//articles/fda2/</link>
+      <pubDate>Thu, 31 Jul 2014 17:00:00 -0700</pubDate>
+      <guid isPermaLink="true">http://dongshengmu.github.io//articles/fda2/</guid>
+      <author>Dongsheng Mu</author>
+      <description>Field Data Analyzer is an expert system framework designed for troubleshooting, which analyses vast amount of field escalation data with a set of analytical engines, based on an extensible knowledge base.
+</description>
+    </item>
+    
+
+  </channel>
+</rss>

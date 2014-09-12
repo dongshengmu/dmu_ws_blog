@@ -1,0 +1,35 @@
+{
+  "locals": {
+    "url": "http://dongshengmu.github.io/",
+    "name": "Dongsheng",
+    "owner": "Dongsheng Mu",
+    "description": "Passion in cloud security, data analysis, and automation.",
+    "feedPath": "/feed.xml"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "./plugins/home.coffee",
+    "wintersmith-handlebars"
+  ],
+  "shared": {
+    "articles": "articles"
+  },
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 4,
+    "template": "blog.hbs",
+    "first": "articles/index.html",
+    "filename": "articles/page/%d/index.html"
+  },
+  "ignore": [
+    "**/.DS_Store"
+  ]
+}
